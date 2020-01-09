@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ShoppingActivity"
+    android:orientation="vertical">
+
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="1"
+       android:text="购物商场"
+       android:textSize="20dp"
+       android:gravity="center"
+       android:textColor="#fff"
+       android:background="#33608f"/>
+
+    <ListView
+        android:id="@+id/list_con"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_weight="6"></ListView>
+    <TextView
+        android:id="@+id/shop_cart"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="购物车"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="#33608f"/>
+</LinearLayout>
